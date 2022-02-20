@@ -70,6 +70,10 @@ body {
     margin-bottom: -130px;
 }
 
+.col-md-6 p{
+    text-align: justify;
+}
+
 .profile-img {
     height: 400px;
 }
