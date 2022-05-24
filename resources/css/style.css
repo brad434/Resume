@@ -124,9 +124,24 @@ h3{
     margin-bottom: 50px;
 }
 
-.progress{
+/* .progress{
     border-radius: 16px;
     margin-bottom: 10px;
+} */
+
+.talents {
+            display: flex;
+    /* flex-direction: row; */
+    /* flex-shrink: initial; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px 50px;
+}
+
+.talents img {
+    width:90px;
+    height: 90px;
+
 }
 
 .progress-bar{
@@ -247,6 +262,69 @@ h3{
     color:#fff;
 }
 
+.services-box .link1 {
+    background-color: grey;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    text-decoration: none;
+    color: #000;
+    position: absolute;
+    left:400px;
+    margin-top: -15px;
+}
+
+.services-box .link1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.link1:hover a {
+    color:white;
+}
+
+.services-box .link2 {
+    background-color: grey;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    text-decoration: none;
+    color: #000;
+    position: absolute;
+    left:850px;
+    margin-top: -15px;
+}
+
+.services-box .link2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.link2:hover a {
+    color:white;
+}
+
+.services-box .link3 {
+    background-color: grey;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    text-decoration: none;
+    color: #000;
+    position: absolute;
+    left:1300px;
+    margin-top: -15px;
+}
+
+.services-box .link3 a{
+    text-decoration:none;
+    color: black;
+}
+
+.link3:hover a {
+    color:white;
+}
+
 /* ---------------Contact-------------- */
 
 .contact {
@@ -361,3 +439,27 @@ h3{
 .contact a .btn{
 
 } */
+
+@media only screen and (max-width: 767px) {
+    .services-box .link1 a{
+        background-color: grey;
+        border-radius: 20px;
+        padding: 10px;
+        width: 100px;
+        text-decoration: none;
+        color: #000;
+        position: absolute;
+        left:250px;
+        margin-top: -15px;
+    }
+    
+    .services-box .link1 a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .link1:hover a {
+        color:white;
+    }
+    
+}
